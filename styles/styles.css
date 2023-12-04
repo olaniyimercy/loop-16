@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #78accd;
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+hr {
+    color: #ececec;
+}
+
+.container {
+    background-color: #fff;
+    width: 25rem;
+    height: 25.5rem;
+}
+
+.headings {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+    color: #848f98;
+    font-weight: 600;
+}
+
+.calendar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 2.5rem;
+    padding: .5rem 1rem 2rem;
+    position: relative;
+}
+
+.calendar__columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.calendar__days {
+    text-transform: uppercase;
+    color: #7f8b96;
+    font-weight: 600;
+}
+
+.calendar__light-days {
+    color: #e6e6e6;
+}
+
+.calendar__day-seven {
+    background-color: #de6e46;
+    color: #fff;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendar__day {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nineteen {
+    border: 2px solid #ae5989;
+}
+
+.sixteen {
+    border: 2px solid #de6e46;
+}
+
+sup {
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    width: 1.2rem;
+    height: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#five {
+    background-color: #ae5989;
+    bottom: 6rem;
+    left: 6.1rem;
+}
+
+#six {
+   background-color: #de6e46;
+    color: #fff;
+    top: 7.7rem;
+    right: 4rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    padding: 1.3rem;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #de6e46;
+    border-radius: 50%; 
+    width: 2rem;
+    height: 2rem;
+}
